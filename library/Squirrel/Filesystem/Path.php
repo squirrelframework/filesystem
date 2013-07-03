@@ -100,7 +100,7 @@ abstract class Path
     /**
      * Creates path type with given mode.
      *
-     * @param  int $mode
+     * @param integer $mode
      * @return boolean
      */
     public abstract function create($mode = 0777);

@@ -378,8 +378,8 @@ class File extends Path
      *
      * @see file_put_contents()
      * @param string $content
-     * @param int $flags
-     * @return int|false Written bytes or false on failure.
+     * @param integer $flags
+     * @return integer|false Written bytes or false on failure.
      */
     public function setContent($content, $flags = 0)
     {
